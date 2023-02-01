@@ -1,0 +1,83 @@
+   0 whoami
+   1 cd
+   2 pwd
+   3 cd ..
+   4 ls
+   5 ls --help
+   6 ls
+   7 ls -a
+   8 ls -l
+   9 ls -la
+  10 cd /bin
+  11 pwd
+  12 ls
+  13 ls -l
+  14 cd
+  15 pwd
+  16 mkdir /user1
+  17 ls
+  18 cd
+  19 mkdir /userl
+  20 ls
+  21 cd user1
+  22 pwd
+  23 mkdir user1
+  24 ls
+  25 cd user1
+  26 pwd
+  27 mkdir task1
+  28 ls
+  29 cd task1/
+  30 touch file1.txt
+  31 ls
+  32 cd
+  33 tree
+  34 clear
+  35 l
+  36 ls
+  37 cd
+  38 pwd
+  39 ls --help
+  40 cd ..
+  41 cd
+  42 mkdir user2
+  43 ls
+  44 cd user2
+  45 mkdir task2
+  46 ls
+  47 cd task2/
+  48 touch file2.txt
+  49 cd ..
+  50 ls -R
+  51 tree
+  52 pwd
+  53 cd /opt
+  54 mkdir /root/user3
+  55 mkdir /root/use3/task3
+  56 mkdir /root/user3/task3
+  57 touch /root/user3/task3/file3.txt
+  58 mkdir --help
+  59 mkdir -p /root/user4/task4/
+  60 tree /root/
+  61 touch /root/user4/task4/file4.txt
+  62 mkdir -p /root/user5/task5 && touch /root/user5/task5/file5.txt
+  63 date
+  64 ls
+  65 date
+  66 cd
+  67 cp --help
+  68 cp /root/user1/task1/file1.txt /tmp/
+  69 ls /tmp/
+  70 cp /root/user2/task2/file2.txt /tmp/123.txt
+  71 ls -l /tmp/
+  72 cp /root/user1 /tmp
+  73 cp -r /root/user1 /tmp
+  74 ls /tmp
+  75 mv /root/user2/task2/file2.txt /tmp/
+  76 ls /root/user2/task2/
+  77 mv /root/user3/task3/file3.txt /tmp/1234.txt
+  78 mv --help
+  79 rm
+  80 rm -rf /root/user5
+  81 history
+  82 history > history.txt
